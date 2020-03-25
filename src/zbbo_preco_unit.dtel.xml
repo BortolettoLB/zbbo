@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZBBO_PRECO_UNIT</ROLLNAME>
+    <HEADLEN>27</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>11</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DTELMASTER>P</DTELMASTER>
+    <DATATYPE>DEC</DATATYPE>
+    <LENG>000015</LENG>
+    <DECIMALS>000003</DECIMALS>
+    <OUTPUTLEN>000019</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>P</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Preço do Fornecedor</DDTEXT>
+     <REPTEXT>Preço Unitário do Forncedor</REPTEXT>
+     <SCRTEXT_S>PUTFN</SCRTEXT_S>
+     <SCRTEXT_M>PRE_UNI_FOR</SCRTEXT_M>
+     <SCRTEXT_L>PRECO_UNITARIO_FORNE</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
