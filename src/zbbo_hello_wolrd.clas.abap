@@ -45,7 +45,7 @@ CLASS ZBBO_HELLO_WOLRD IMPLEMENTATION.
 
 
   method CLASS_CONSTRUCTOR.
-   set_pi( '3.141592' ). "Pi com precisao normal
+   set_pi( '3.1415' ). "Pi com precisao menor
   endmethod.
 
 
