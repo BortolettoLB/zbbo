@@ -1,5 +1,6 @@
 class ZBBO_HELLO_WOLRD definition
   public
+  abstract
   create public .
 
 public section.
@@ -27,6 +28,7 @@ protected section.
   class-data AREA type F .
 
   methods GET_AREA
+  abstract
     returning
       value(RE_AREA) type F .
 private section.
@@ -43,13 +45,8 @@ CLASS ZBBO_HELLO_WOLRD IMPLEMENTATION.
 
 
   method CLASS_CONSTRUCTOR.
-   set_pi( '3.141592' ).
+   set_pi( '3.141592' ). "Teste abapgit
   endmethod.
-
-
-  METHOD get_area.
-    re_area = 2 * pi * ( radius ** 2 ).
-  ENDMETHOD.
 
 
   method GET_PI.
